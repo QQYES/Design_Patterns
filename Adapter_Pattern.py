@@ -49,7 +49,7 @@ def duckTest(duck: Duck):
 
 if __name__ == '__main__':
     duck: MallardDuck = MallardDuck()
-    turkey = WildTurkey()
+    turkey: WildTurkey = WildTurkey()
     turkeyAdapter = TurkeyAdapter(turkey)
     print("The Turkey says...")
     turkey.gobble()
