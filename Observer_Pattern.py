@@ -79,3 +79,8 @@ if __name__ == '__main__':
     weatherData = WeatherData()
     currentDisplay = CurrentConditionsDisplay(weatherData)
     weatherData.setMeasurements(80, 65, 30.4)
+    weatherData.setChanged()
+    weatherData.setMeasurements(82, 70, 29.2)
+    weatherData.setChanged()
+    weatherData.setMeasurements(78, 90, 29.2)
+    weatherData.setChanged()
